@@ -1,19 +1,32 @@
 # Basic-Gates-Using-LTspice
 # Design Files
 
-This folder contains the **LTSpice schematic files (.png)** for all basic logic gates.  
-Each file can be opened directly in LTSpice to view or modify the circuit.
+- The `Design/` folder contains **screenshots of LTSpice schematics** for all basic logic gates.  
+- Each image shows the CMOS-based circuit implementation of the gate.  
+- These screenshots can be used as a reference to redraw the circuits in LTSpice if needed.  
+- Default supply voltage: **(5V)**.
+---
 
-## Available Gates
-- `AND Gate.png` → 2-input AND gate
-- `OR Gate.png` → 2-input OR gate
-- `NOT Gate.png` → Inverter
-- `NAND Gate.png` → 2-input NAND gate
-- `NOR Gate.png` → 2-input NOR gate
+## 📊 Simulation
 
+- The `Simulation/` folder contains **waveform screenshots (.png)** from LTSpice transient analysis.  
+- Each waveform verifies the **truth table** of the corresponding logic gate.  
+- Input signals are generated using pulse sources, and outputs are observed to confirm correct functionality.  
+---
 
-## Notes
-- All circuits are designed using CMOS logic in LTSpice.
-- Supply voltage: **(5V)**.
-- Inputs are pulse sources, outputs can be probed for transient analysis.
-- Modify input parameters in LTSpice to verify truth tables.
+## ✅ Implemented Gates
+
+- AND Gate  
+- OR Gate  
+- NOT Gate  
+- NAND Gate  
+- NOR Gate  
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rohitt028/LTSpice-Basic-Gates.git
+   cd LTSpice-Basic-Gates
+
